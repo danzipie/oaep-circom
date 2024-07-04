@@ -1,7 +1,7 @@
 pragma circom 2.1.3;
 
-include "../node_modules/circomlib/circuits/bitify.circom";
-include "./sha1-circom/sha1.circom";
+include "circomlib/circuits/bitify.circom";
+include "sha1-circom/sha1.circom";
 
 // receives an input seed of length seedLength
 // outputs the MFG1 of length length
